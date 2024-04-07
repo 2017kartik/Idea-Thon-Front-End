@@ -1,0 +1,38 @@
+main {
+  height: 90vh;
+  width: 103vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/biometric-technology-background-with-fingerprint-scanning-system-virtual-screen-digital-remix_53876-104197.jpg?size=626&ext=jpg&ga=GA1.1.194315014.1707566861&semt=sph");
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+main .main-content {
+  color: #e3e3e3;
+}
+
+.mobile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vh;
+  padding: 15px;
+  margin-bottom: 7vh;
+}
+
+@media screen and (max-width: 990px) {
+  .mobile-content {
+    gap: 50px;
+  }
+}
